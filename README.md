@@ -1,1 +1,0 @@
-# KOPET-BOT2
