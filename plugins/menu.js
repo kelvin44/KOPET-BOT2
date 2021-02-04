@@ -65,7 +65,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     }
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
-╭═┅ৡ ৢ ͡ ͜✦═══╡KOPET BOT╞═══┅ৡ ৢ ͡ ͜✦═╮ %readmore
+╭═┅ৡ ৢ ͡ ͜✦═══╡꧁꧂╞═══┅ৡ ৢ ͡ ͜✦═╮ %readmore
 ┃
 ┃━⋆ ⃟⊱๑⋆ ⃟⊱๑ ˌ ⃟ˌ ⃟ˌ ⃟ˌâ⚔ˌ ⃟ˌ ⃟ˌ ⃟ˌ ⃟ˌ ๑⋆ ⃟⊱๑⋆ ⃟⊱๑⋆ ⃟⊱━
 ┃
@@ -79,12 +79,12 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ┃
 ┣⊱ *Uptime: %uptime*
 ┣━⊱ *Database: %totalreg nomor*
-┣⊱ *BOT BY:*
-┣━⊱ Kelvin Oktavian
+┣⊱ *BOT:*
+┣━⊱ KOPET BOT
 ┣⊱ *OWNER:*
 ┣━⊱ wa.me/621218305935
 ┃
-╰═┅ৡ ৢ ͡ ͜✦═══╡KOPET BOT╞═══┅ৡ ৢ ͡ ͜✦═╯
+╰═┅ৡ ৢ ͡ ͜✦═══╡꧁꧂╞═══┅ৡ ৢ ͡ ͜✦═╯
 %readmore`
     let header = conn.menu.header || '┏━━━━⊱❰ *%category* ❱'
     let body   = conn.menu.body   || '┣━⊱ *%cmd%islimit*'
