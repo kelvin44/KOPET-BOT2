@@ -16,6 +16,25 @@ CFonts.say('\'Instagram:\' ff.kelvin15', {
 function start() {
   let args = [path.join(__dirname, 'main.js'), ...process.argv.slice(2)]
   CFonts.say([process.argv[0], ...args].join(' '), {
+    font: 'console.log('Starting...')
+let { spawn } = require('child_process')
+let path = require('path')
+let fs = require('fs')
+const CFonts  = require('cfonts')
+CFonts.say('TERMUX WHATSAPP BOT', {
+  font: 'chrome',
+  align: 'center',
+  gradient: ['red', 'magenta']
+})
+CFonts.say('\'Youtube:\' Drawl Nag', {
+  font: 'console',
+  align: 'center',
+  gradient: ['red', 'magenta']
+})
+
+function start() {
+  let args = [path.join(__dirname, 'main.js'), ...process.argv.slice(2)]
+  CFonts.say([process.argv[0], ...args].join(' '), {
     font: 'console',
     align: 'center',
     gradient: ['red', 'magenta']
@@ -28,8 +47,14 @@ function start() {
       console.log('RESET')
       p.kill()
       start()
-      delete p
     }
+  })
+  .on('error', e => {
+    console.error(e)
+    fs.watchFile(args[0], () => {
+      start()
+      fs.unwatchFile(args[0])
+    })
   })
 }
 
