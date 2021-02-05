@@ -1,4 +1,4 @@
-konsol . log ( 'Memulai ...' )
+consol . log ( 'Memulai ...' )
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
