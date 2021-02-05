@@ -1,4 +1,4 @@
-konsol . log ( 'Starting ...' )
+console . log ( 'Starting ...' )
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
