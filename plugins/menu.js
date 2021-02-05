@@ -81,6 +81,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ┣━⊱ *Database: %totalreg nomor*
 ┣⊱ *BOT:*
 ┣━⊱ KOPET BOT
+┣⊱ *BOT VERSION:*
+┣━⊱ KOPET 1.2.8
 ┣⊱ *OWNER:*
 ┣━⊱ wa.me/621218305935
 ┃
