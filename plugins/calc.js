@@ -24,7 +24,7 @@ let handler = async (m, { conn, text }) => {
     console.log(val)
     let result = (new Function('return ' + val))()
     if (!result) throw result
-    m.reply(`*${format}* = _${result}_`)
+    m.reply(`${result}`)
   } catch (e) {
     if (e == undefined) throw 'Isinya?'
     throw 'Format salah, hanya 0-9 dan Simbol -, +, *, /, ×, ÷, π, e, (, ) yang disupport'
