@@ -18,7 +18,7 @@ _Note : Mp3 akan dikirim melalui dokumen:v_
   if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp3', `
 *Title:* ${title}
 *Filesize:* ${filesizeF}
-`.trim(), m, false, { asDocument: true })
+`.trim(), m, true, { asDocument: false })
 }
 handler.help = ['mp3','a'].map(v => 'yt' + v + ' <url> [server: id4, en60]')
 handler.tags = ['downloader']
