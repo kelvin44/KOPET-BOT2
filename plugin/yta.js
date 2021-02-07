@@ -8,17 +8,14 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
   let { dl_link, thumb, title, filesize, filesizeF} = await yta(args[0], serverlist.includes(server) ? server : 'id4')
   let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesize
   conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
-🐼 ---[Thumbnail KOPET BOT]--- 🐼
-_Note : Mp3 akan dikirim melalui dokumen:v_
 *Title:* ${title}
 *Filesize:* ${filesizeF}
 *${isLimit ? 'Pakai ': ''}Link:* ${dl_link}
-🐼 ---[KOPET BOT]--- 🐼
 `.trim(), m)
   if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp3', `
 *Title:* ${title}
 *Filesize:* ${filesizeF}
-`.trim(), m, true, { asDocument: false })
+`.trim(), m)
 }
 handler.help = ['mp3','a'].map(v => 'yt' + v + ' <url> [server: id4, en60]')
 handler.tags = ['downloader']
@@ -95,4 +92,3 @@ function yta(url, server = 'id4') {
         } else reject('URL INVALID')
     })
 }
-
