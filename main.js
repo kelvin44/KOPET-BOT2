@@ -233,12 +233,7 @@ conn.handler = async function (m) {
     }
   }
 }
-conn.welcome = '*[WELCOME MEMBER IN GROUP @subject ]*
-___________
-@ pengguna
-SELAMAT  DATANG  BEBAN  GROUP
-__________
-Semoga  betah  dan  kaga  numpang  lagi  di  grup  ini
+conn.welcome = 'Hai @user!, semoga betah di grup @subject walau hanya sementara:)
 conn.bye = '*[LEFT MEMBER IN GROUP]*
 ___________
 @user
