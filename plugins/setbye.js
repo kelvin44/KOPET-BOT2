@@ -8,6 +8,7 @@ let handler = async (m, { conn, text, isROwner, isOwner }) => {
 }
 handler.help = ['setbye <teks>']
 handler.tags = ['owner', 'group']
+handler.owner = true
 
 handler.command = /^setbye$/i
 module.exports = handler
