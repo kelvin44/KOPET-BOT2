@@ -77,6 +77,9 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ┣⊱ *Tanggal: %week , %date*
 ┣━⊱ *Waktu: %time*
 ┃
+┣⊱ *Instagram: https://www.instagram.com/ff.kelvin15*
+┣━⊱ *BOT ON: bot on jam 12.00-22.000*
+┃
 ┣⊱ *Uptime: %uptime*
 ┣━⊱ *Database: %totalreg nomor*
 ┣⊱ *BOT:*
