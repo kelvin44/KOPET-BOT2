@@ -234,12 +234,7 @@ conn.handler = async function (m) {
   }
 }
 conn.welcome = 'Hai @user, selamat datang di grup @subject!'
-conn.bye = '*[LEFT MEMBER IN GROUP]*
-___________
-@user
-SELAMAT KELUAR BEBAN GROUP
-__________
-Semoga kaga numpang lagi di grup ini'
+conn.bye = 'bye @user,makasih udah datang ke grup @subject walau hanya sementara!'
 conn.onAdd = async function ({ m, participants }) {
   let chat = global.DATABASE._data.chats[m.key.remoteJid]
   if (!chat.welcome) return
