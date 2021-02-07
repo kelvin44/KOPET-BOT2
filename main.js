@@ -327,8 +327,6 @@ if (opts['test']) {
       fromMe: true,
       remoteJid: chatId,
       id: opts ? '3EB0ABCDEF45' : 'biasa'
-    }
-  aruga.sendSeen(chatId)
     },
     message: {
       [type]: content
