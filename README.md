@@ -41,5 +41,5 @@ Simple WhatsApp Bot
 ```
 ## Thanks too
 * [`Arya274`](https://github.com/Arya274)
-* [`saya sendiri`](https://github.com/kelvin44)
+* [`kelvin44`](https://github.com/kelvin44)
 * [`Nurutomo`](https://github.com/Nurutomo)
