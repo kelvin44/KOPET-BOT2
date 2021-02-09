@@ -34,12 +34,12 @@ Simple WhatsApp Bot
 > node index.js
 ```
 
-##### sosial media
+# sosial media
 * [`Whatsapp admin`](https://wa.me/6281218305935)
 * [`Whatsapp Bot`](https://wa.me/6285283859989)
 * [`Instagram Admin`](https://www.instagram.com/ff.kelvin15)
 ```
-### Thanks too
+## Thanks too
 * [`Arya274`](https://github.com/Arya274)
 * [`saya sendiri`](https://github.com/kelvin44)
 * [`Nurutomo`](https://github.com/Nurutomo)
