@@ -40,7 +40,7 @@ Simple WhatsApp Bot
 * [`Instagram Admin`](https://www.instagram.com/ff.kelvin15)
 ```
 ## Thanks too
-* [`Arya274`](https://github.com/Arya274)
-* [`kelvin44`](https://github.com/kelvin44)
-* [`Nurutomo`](https://github.com/Nurutomo)
+[`Arya274`](https://github.com/Arya274)
+[`kelvin44`](https://github.com/kelvin44)
+[`Nurutomo`](https://github.com/Nurutomo)
 ```
