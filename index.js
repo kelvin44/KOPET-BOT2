@@ -1,8 +1,8 @@
-console . log ( 'Starting ...' )
+console.log('Starting...')
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
-CFonts.say('CIEE NYOLONG🙂', {
+CFonts.say('KOPET BOT NIH BOSS', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
