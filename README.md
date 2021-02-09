@@ -35,6 +35,6 @@ Simple WhatsApp Bot
 ```
 
 # sosial media
-[`Whatsapp admin`](https://wa.me/6281218305935)
-[`Whatsapp Bot`](https://wa.me/6285283859989)
-[`Instagram Admin`](https://www.instagram.com/ff.kelvin15)
+* [`Whatsapp admin`](https://wa.me/6281218305935)
+* [`Whatsapp Bot`](https://wa.me/6285283859989)
+* [`Instagram Admin`](https://www.instagram.com/ff.kelvin15)
