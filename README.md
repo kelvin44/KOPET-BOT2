@@ -43,6 +43,3 @@ Simple WhatsApp Bot
 * [`Arya274`](https://github.com/Arya274)
 * [`saya sendiri`](https://github.com/kelvin44)
 * [`Nurutomo`](https://github.com/Nurutomo)
-
-
-
