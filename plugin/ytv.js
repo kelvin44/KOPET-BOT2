@@ -12,7 +12,11 @@ _Note:Kalo gak di kirim berarti video durasinya panjang_
 *${isLimit ? 'Pakai ': ''}Link:* ${dl_link}
 `.trim(), m)
   if (!isLimit) conn.sendFile(m.chat, dl_link, 'video.mp4', `
-Nih manja kali kau:v
+🐼KOPET BOT🐼
+_*Neh mhank
+*Title:* ${title}
+*Filesize:* ${filesizeF}
+🐼KOPET BOT🐼
 `.trim(), m)
 }
 handler.help = ['mp4','v',''].map(v => 'yt' + v + ' <url>')
@@ -73,7 +77,7 @@ function ytv(url) {
                         ajax: '1',
                         token: '',
                         ftype: 'mp4',
-                        fquality: 720
+                        fquality: 360
                     })
                         .then(res => res.json())
                         .then(res => {
@@ -90,4 +94,3 @@ function ytv(url) {
         } else reject('URL INVALID')
     })
 }
-
